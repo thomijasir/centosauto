@@ -23,6 +23,8 @@ esac
 
 echo "=================================================" > /tmp/hasil.txt
 echo " **** Scure Shell Monitoring By Optimashell ****" >> /tmp/hasil.txt
+echo "=================================================" >> /tmp/hasil.txt
+echo " " >> /tmp/hasil.txt
 cat /tmp/pid.txt | while read line;do
 set -- $line
 cat /tmp/sukses.txt | grep $1 >> /tmp/hasil.txt
