@@ -1,0 +1,8 @@
+[geekery]
+name = geekery repository
+baseurl = http://geekery.altervista.org/geekery/el6/i686
+#mirrorlist = http://geekery.altervista.org/mirrors-geekery
+enabled = 1
+protect = 0
+gpgkey = http://geekery.altervista.org/download.php?filename=GEEKERY-GPG-KEY
+gpgcheck = 1
